@@ -19,8 +19,8 @@ const Header = () => {
                         <div className="news-item-full"><span className="news-item-icon"></span>Новость 1 фывафввввввввввввввввввввввввввввввввввввв</div>
                         <div className="news-item-full"><span className="news-item-icon"></span>Новость 1 фывафввввввввввввввввввввввввввввввввввввв</div>
                         <div className="exchange-rate-wrap">
-                            <div className="usd-moex">usd moex 63,52</div>
-                            <div className="eur-moex">eur moex 70,86</div>
+                            <div className="usd-moex">usd moex 63,52 <span className="moex-persent">+ 0,09</span></div>
+                            <div className="eur-moex">eur moex 70,86 <span className="moex-persent">+ 0,07</span></div>
                             <div className="oil-moex">нефть 64,90 <span className="exchange-rate-percent">+ 1.63%</span></div>
                         </div>
                     </div>
