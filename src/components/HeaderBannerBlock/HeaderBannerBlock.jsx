@@ -1,5 +1,7 @@
 import React from "react";
 
+// Header left Banner block
+
 const HeaderBannerBlock = (props) => {
     return (
         <React.Fragment>

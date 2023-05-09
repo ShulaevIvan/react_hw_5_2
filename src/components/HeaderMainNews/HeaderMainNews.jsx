@@ -1,5 +1,7 @@
 import React from "react";
 
+// Header full links
+
 const HeaderMainNews = (props) => {
     return (
         <React.Fragment>

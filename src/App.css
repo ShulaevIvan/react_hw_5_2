@@ -284,3 +284,29 @@ input {
   }
 
 }
+.weather-values-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.weather-main-icon-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+.weather-main-icon::before  {
+  content: '\2600';
+  font-size: 40px;
+}
+.weater-temp {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.weather-icon, .weather-value {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}

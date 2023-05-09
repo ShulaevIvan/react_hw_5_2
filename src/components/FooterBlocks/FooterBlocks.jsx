@@ -1,14 +1,14 @@
 import React from "react";
+// Footer Column ROW
 
-
-const SearhFrom = (props) => {
+const FooterBlocks = (props) => {
     return (
         <React.Fragment>
-            <div className="search-main-container">
+            <div className="footer-column-row">
                {props.children}
             </div>
         </React.Fragment>
     );
 }
 
-export default SearhFrom;
+export default FooterBlocks;
